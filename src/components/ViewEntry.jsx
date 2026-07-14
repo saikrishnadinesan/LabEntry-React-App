@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navigation from "./Navigation";
 
 const ViewEntry = () => {
 
@@ -26,6 +27,7 @@ const ViewEntry = () => {
 
   return (
     <div>
+        <Navigation />
 
       <div className="container mt-4">
 
