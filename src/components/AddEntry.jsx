@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Navigation from "./Navigation";
 
 const AddEntry = () => {
   const [input, changeInput] = useState({
@@ -58,6 +59,7 @@ const AddEntry = () => {
 
   return (
     <div>
+        <Navigation />
       <div className="container mt-4">
 
         <h2 className="text-center mb-4">Add Lab Entry</h2>
